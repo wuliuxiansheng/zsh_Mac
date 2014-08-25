@@ -1,4 +1,4 @@
 zsh_Mac
 =======
 
-zsh Files for Mac
+Custom zsh Files for Mac
