@@ -11,6 +11,8 @@ ZSH_THEME="bira"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias emacs24="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+export PATH=$PATH:/Applications/MATLAB_R2013a.app/bin/
+alias matlab="matlab -nodesktop"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
