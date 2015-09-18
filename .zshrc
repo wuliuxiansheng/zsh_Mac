@@ -81,5 +81,5 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias emacs24="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
-export PATH=$PATH:/Applications/MATLAB_R2014b.app/bin/
+export PATH=$PATH:/Applications/MATLAB_R2015b.app/bin/
 alias matlab="matlab -nodesktop -nosplash"
