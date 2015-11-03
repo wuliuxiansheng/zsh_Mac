@@ -63,7 +63,8 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
+#  export EDITOR='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
+  export EDITOR='/Applications/Emacs.app/Contents/MacOS/Emacs'
 fi
 
 # Compilation flags
@@ -80,6 +81,8 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias emacs24="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+# alias emacs24="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+alias emacs24="/Applications/Emacs.app/Contents/MacOS/Emacs"
 export PATH=$PATH:/Applications/MATLAB_R2015b.app/bin/
 alias matlab="matlab -nodesktop -nosplash"
+alias edit="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
