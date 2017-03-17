@@ -81,8 +81,9 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# alias emacs24="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
-alias emacs24="/Applications/Emacs.app/Contents/MacOS/Emacs"
-export PATH=$PATH:/Applications/MATLAB_R2015b.app/bin/
+# alias emacs25="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+alias emacs25="/Applications/Emacs.app/Contents/MacOS/Emacs"
+export PATH=$PATH:/Applications/MATLAB_R2016a.app/bin/
 alias matlab="matlab -nodesktop -nosplash"
 alias edit="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
+export PATH="/usr/local/opt/gnupg@2.1/bin:$PATH"
