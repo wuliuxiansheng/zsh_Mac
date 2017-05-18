@@ -83,7 +83,9 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias emacs25="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 alias emacs25="/Applications/Emacs.app/Contents/MacOS/Emacs"
-export PATH=$PATH:/Applications/MATLAB_R2016a.app/bin/
+export PATH=$PATH:/Applications/MATLAB_R2016b.app/bin/
 alias matlab="matlab -nodesktop -nosplash"
 alias edit="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
 export PATH="/usr/local/opt/gnupg@2.1/bin:$PATH"
+# when opening a terminal, Apple logo and machine info will be shown
+archey
