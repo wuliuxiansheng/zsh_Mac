@@ -45,13 +45,13 @@ ZSH_THEME="bira"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git brew pip osx nvm npm)
 
 # User configuration
 
 # export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$PATH:/usr/local/gcc-arm-none-eabi/bin  # PATH for gcc-arm-none-eabi
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$PATH:/usr/local/gcc-arm-none-eabi/bin  # PATH for gcc-arm-none-eabi
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,9 +83,9 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias emacs25="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 alias emacs25="/Applications/Emacs.app/Contents/MacOS/Emacs"
-export PATH=$PATH:/Applications/MATLAB_R2016b.app/bin/
+# export PATH=$PATH:/Applications/MATLAB_R2016b.app/bin/
 alias matlab="matlab -nodesktop -nosplash"
 alias edit="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
-export PATH="/usr/local/opt/gnupg@2.1/bin:$PATH"
+# export PATH="/usr/local/opt/gnupg@2.1/bin:$PATH"
 # when opening a terminal, Apple logo and machine info will be shown
 archey
